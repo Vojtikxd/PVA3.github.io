@@ -49,6 +49,7 @@
 #searchbox {
     height: 3rem;
     width: 35rem;
+    border-radius: 50px;
     border: #000 1px solid;
 }
 
