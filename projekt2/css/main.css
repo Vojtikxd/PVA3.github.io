@@ -5,7 +5,7 @@
 }
 
 body {
-    background: white;
+    background: #eee;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -21,18 +21,17 @@ h2 {
 h3 {
     font-weight: bold;
     font-family: 'Varela Round', sans-serif;
-    color: white;
 }
 
 p {
     margin: 0.75rem 0;
-    color: white;
 }
 
 footer {
-    background: black;
+    background:black;
     color: white;
 }
+
 
 /* Utility Classes */
 .heading-1 {
@@ -50,7 +49,7 @@ footer {
 .btn {
     display: inline-block;
     color: white;
-    background: red;
+    background: black;
     padding: 0.8rem 2rem;
     border: none;
     border-radius: 5px;;
@@ -58,11 +57,11 @@ footer {
 }
 
 .btn:hover {
-    background-color: darkred;
+    background-color: red;
 }
 
 .btn-dark {
-    background: black;
+    background: #0a050b;
     color: white;
 }
 
@@ -132,7 +131,7 @@ footer {
 }
 
 .bg-light {
-    background: white;
+    background: #F9F1EA
 }
 
 .bg-dark {
@@ -145,17 +144,17 @@ footer {
     position: absolute;
     bottom: 0;
     right: 0;
-    color: white;
+    color: red;
     margin: 10px 20px;
 }
 
 .source a {
-    color: darkred;
+    color: red;
     text-decoration: none;
 }
 
 .colored-text {
-    color: white;
+    color: red;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -166,7 +165,7 @@ footer {
 
 .list li {
     padding: 0.5rem 0;
-    border-bottom: white dotted 1px;
+    border-bottom: red dotted 1px;
 }
 
 
@@ -189,6 +188,10 @@ footer {
     top: 0;
     z-index: 2;
     overflow: hidden;
+}
+
+#navigation_bar #hamburger {
+    display: none
 }
 
 #navigation_bar i {
@@ -223,7 +226,7 @@ footer {
 
 /* Section Showcase */
 #showcase {
-    background: red url(../img/Marek.PNG) no-repeat center center/cover;
+    background: black url(../img/Marek.PNG) no-repeat center center/cover;
     height: 100vh;
     color: white;
 }
@@ -300,6 +303,10 @@ footer {
     flex: 1;
 }
 
+#contact .contact-adress {
+    border-top: 1px red solid;
+}
+
 #contact .contact-form .form-group {
     margin: 0.75rem;
 }
@@ -316,4 +323,21 @@ footer {
 
 #contact h3 {
     margin-top: 2rem;
+}
+
+#contact .btn {
+    margin: 0.75rem;
+}
+
+#contact .btn:hover {
+    background-color: #F9F1EA;
+    border: 1px solid black;
+    color: black;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    justify-items: center ;
 }
