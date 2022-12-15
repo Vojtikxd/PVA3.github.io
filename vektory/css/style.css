@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: left;
+    padding: 20px;
+}
+form {
+    margin-left: 20px;
+    text-align: center;
+
+}
+
+#submit {
+    margin: 10px;
+}
+
+#vysledek {
+    text-align: center;
+    font-size: 2em;
+    background-color: #00ff00;
+}
+
