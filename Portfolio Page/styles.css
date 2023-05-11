@@ -7,10 +7,10 @@
 
 
 :root {
-    --main-color: #003459;
-    --main-lighten-color: #007ea7;
+    --main-color: #FFD700;
+    --main-lighten-color:#0E1114;
     --white-color: #ffffff;
-    --dark-color: #000;
+    --dark-color: #0E1114;
 }
 
 :target {
@@ -30,11 +30,13 @@ html {
 .heading-2 {
     font-size: 2rem;
     font-weight: 300;
+    color: white;
 }
 
 .heading-3 {
     font-size: 1rem;
     font-weight: 300;
+    color: white;
 }
 
 .text-center {
@@ -84,13 +86,15 @@ html {
 }
 
 #projects {
+    background-color: #0E1114;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 10%;
+
 }
 
 #project-box {
+    background-color: #0E1114;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 20rem 20rem 20rem;
@@ -101,6 +105,7 @@ html {
 }
 
 .project {
+    background-color: #0E1114;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -110,6 +115,7 @@ html {
 }
 
 .project-photo {
+    background-color: #0E1114;
     width: 100%;
     display: flex;
     align-items: center;
@@ -117,21 +123,24 @@ html {
 }
 
 .project-photo img {
+    background-color: #0E1114;
     width: 80%;
     transition: width ease 0.3s;
 }
 
 .project-photo img:hover {
+    background-color: #0E1114;
     width: 100%;
 }
 
 .project-description {
+    background-color: #0E1114;
     position: absolute;
     bottom: 7%;
 }
 
 #projects {
-    margin-bottom: 3rem;
+    background-color: #0E1114;
 }
 
 #contact {
